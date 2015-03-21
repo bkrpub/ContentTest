@@ -1,0 +1,63 @@
+{
+  "locales" : [ "de", "en", "es" ],
+  "fallback_locale" : "en",
+  
+  "localized_strings" : [
+          { "_" : "TITLE",  "de" : "Pflanzen", "en" : "Plants", "es" : "Plantas" },
+          { "_" : "CAPTION.ATTRIBUTION",  "de" : "Bild:", "en" : "Image:", "es" : "Foto:" },
+    
+      { "_" : "RED",  "de" : "rot", "en" : "red", "es" : "roja" },
+
+      { "_" : "CAPTION.general",  "de" : "Pflanze", "en" : "plant", "es" : "planta" },	
+      { "_" : "CAPTION.plant",  "de" : "Pflanze", "en" : "plant", "es" : "planta" },	
+      { "_" : "CAPTION.flower",  "de" : "Blüte", "en" : "flower", "es" : "flor" }
+  ],
+
+  "id": "bot",
+  "general_image": "plant",
+  "uti" : "org.jumper.catalog",
+  "default_item_uti" : "org.jumper.catalog.item.botany",
+  "uti_specific": {
+        "distribution" : {
+      "de": "",
+      "en": "",
+      "es": ""
+    },
+        "endemic" : {},
+    "family" : {},
+        "flowerColor" : {},
+        "flowerPeriod" : {},
+        "flowerType" : {},
+        "leafColor" : {},
+        "leafDescription" : {},
+        "leafDivision" : {},
+        "leafMargin" : {},
+        "leafShape" : {},
+        "leafSize" : {},
+        "lifeCycle" : {},
+        "lifeForm" : {},
+        "occurrence" : {},
+        "origin" : {},
+        "phyllotaxy" : {},
+        "size" : {},
+        "species" : {}
+	},
+  
+  "image_descriptors": [
+    { "id" : "plant", "thumbnailURL" : "icon_54221" },
+    { "id" : "flower", "thumbnailURL" : "icon_44709" },
+    { "id" : "leaf", "thumbnailURL" : "icon_43346" },
+    { "id" : "fruit", "thumbnailURL" : "icon_17919" },
+    { "id" : "bud", "thumbnailURL" : "icon_19143" },
+    { "id" : "seed", "thumbnailURL" : "icon_48153" },
+    { "id" : "trunk", "thumbnailURL" : "icon_40617" },
+    { "id" : "root", "thumbnailURL" : "icon_41936" },
+    { "id" : "group", "thumbnailURL" : "icon_52407" },
+    { "id" : "occurrence",  "thumbnailURL" : "icon_26945" }
+  ],
+
+  "csv_keys": [
+"id", "@de", ".images", ".keywords", "@en", "@es", "@fr", "distribution", "endemic", "family", "flowerColor", "flowerPeriod", "flowerType", "phyllotaxy", "leafDivision", "leafMargin", "leafShape", "leafSize", "leafColor", "leafDescription", "lifeCycle", "lifeForm", "occurrence", "origin", "size", "species", "editURL"
+  ]
+
+}
